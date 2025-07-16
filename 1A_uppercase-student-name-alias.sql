@@ -2,4 +2,10 @@
 
 
 
- select upper(FIRST_NAME) as STUDENT_NAME from students;
+>> select upper(FIRST_NAME) as STUDENT_NAME from students;
+
+
+Explanation:
+
+This query uses the UPPER() function to convert the FIRST_NAME values to uppercase. 
+The alias STUDENT_NAME is applied to the output column for better readability and relevance.
